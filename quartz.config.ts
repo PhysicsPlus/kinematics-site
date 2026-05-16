@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Кинематика: база знаний",
-    pageTitleSuffix: " | П. Крюков",
+    pageTitle: "Кинематика — П. Крюков",
+    pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
