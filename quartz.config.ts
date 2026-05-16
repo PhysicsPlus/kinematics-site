@@ -8,16 +8,22 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "Кинематика: база знаний",
+    pageTitleSuffix: " | АЭШФ",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "umami",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    locale: "ru-RU",
+    baseUrl: "physicsplus.github.io/kinematics-site",
+    ignorePatterns: [
+      "private", "templates", ".obsidian",
+      "context", "sources", "server.py",
+      "CLAUDE.md", "todo.md", "changelog.md",
+      "Schema.md", "Concepts.md",
+      "движение-по-окружности.md", "системы-отсчёта.md",
+    ],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
