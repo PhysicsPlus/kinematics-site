@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Кинематика: база знаний",
-    pageTitleSuffix: " | АЭШФ",
+    pageTitleSuffix: " | П. Крюков",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
